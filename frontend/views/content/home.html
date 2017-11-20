@@ -1,32 +1,38 @@
-<div class="container">
-    <a class="btn btn-default" ng-click="buttonClick()">Demo Button</a>
-    <flex-slider flex-slide="s in mySlides" prev-text="" next-text="">
-        <li>
-            <img ng-src="{{s}}" class="img-full">
-        </li>
-    </flex-slider>
-    <swiper autoplay="5000" effect="slide" slides-per-view="1" loop="true">
-        <slides>
-            <slide ng-repeat="s in mySlides">
-                <img ng-src="{{s}}" class="img-full" noloading="true">
-            </slide>
-        </slides>
-        <prev></prev>
-        <next></next>
-        <pagination></pagination>
-    </swiper>
-    <div class="row">
-        <div class="col-md-2" ng-repeat="s in mySlides">
-            <a ng-href="{{s}}" data-fancybox="group" rel="gallary" fancybox>
-                <img ng-src="{{s}}" class="img-full">
-            </a>
+<div>
+    <div class="background-image">
+        <div class="grat-text1 shadow">
+            <h4 class="text-center"><strong>G</strong>F</h4>
+            <h5 class="text-capitalize text-center"><strong>GRATITUDE</strong> FUND</h5>
+            <div class="para">
+                We are a community of investors that help change the way people work, live, exercise, eat, give, love and express gratitude.
+                We invest in people and their ideas. We seed invest with the belief that in our own little way we can help
+                nurture the seeds of love and gratitude to create a more beautiful and grateful universe. We see the good
+                in all ideas and the universe in all people
+            </div>
         </div>
-        <div class="col-md-2">
-            <a class="various" data-fancybox="group" rel="gallary" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1" fancybox><img ng-src="http://img.youtube.com/vi/L9szn1QQfas/maxresdefault.jpg" class="img-full"></a>
-        </div>
-        <div class="col-md-2">
-            <a class="various" data-fancybox="group" rel="gallary" href="https://vimeo.com/191947042" class="img-full"></a>
+        <div class="arrow"><a href="#connect" target="_self"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
+    </div>
+    <div class="background-image1" id="connect">
+        <div class="text-capitalize connect-text">CONNECT</div>
+        <div class="grat-text1 colorful-border">
+            <div>
+                <div>
+                    <div><img src="img/icon.png" width="50"></div>
+                    <div><a href="https://twitter.com/GratitudeFund" target="_blank">jsw@gratitudefund.in</a></div>
+                </div>
+                <div>
+                    <div><img src="img/icon1.png" width="50" target="_self"></div>
+                    <div><a href="mailto:jsw@gratitudefund.in">jsw@yogafoodlove.com</a></div>
+                </div>
+                <div>
+                    <div><img src="img/icon2.png" width="50"></div>
+                    <div>+91 927 383 4546</div>
+                </div>
+                <div>
+                    <div><img src="img/icon3.png" width="50"></div>
+                    <div>Gratitude Fund, LLC<br>41 Yukon Drive,<br>Woodbury, NY 11797</div>
+                </div>
+            </div>
         </div>
     </div>
-
 </div>
