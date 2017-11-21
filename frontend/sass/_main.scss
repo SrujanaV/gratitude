@@ -9,9 +9,24 @@ $brand-info: #000072 !default;
 
 /* Bootstrap Variables Goes Here */
 
-@import "other/font-fix";
+@font-face {
+    font-family: "Roboto";
+    font-weight: 100;
+    src: url("../fonts/roboto-regular_[allfont.net].ttf");
+}
+@font-face {
+    font-family: "Roboto";
+    font-weight: 800;
+    src: url("../fonts/Roboto-Black.ttf");
+}
+// @font-face {
+//     font-family: "Roboto";
+//     font-weight: 100;
+//     src: url("../Roboto/fonts/Roboto-Light.ttf");
+// }
 body {
     // padding-top: 70px;
+    font-family: "Roboto";
 }
 
 img.loading {
@@ -126,11 +141,11 @@ header {
     transform: translateY(-100%);
 }
 .background-image{
-    background: url(../img/back1.jpg) no-repeat;
+    // background: url(../img/back1.jpg) no-repeat;
     height: 100vh;
     width: 100%;
-    background-size: cover!important;
-    background-position: center center!important;
+    // background-size: cover!important;
+    // background-position: center center!important;
     overflow: hidden;
 }
 .background-image1{
@@ -146,37 +161,53 @@ header {
     box-shadow: 10px 10px 5px #888888;
 }
 .grat-text1{
+    font-family: "Roboto";
+    font-weight: 300;
     background: white;
     text-align: justify;
-    padding: 15px 20px;
+    padding: 30px 30px;
     border-radius: 5px;
     border: solid 10px black;
-    width: 22%;
+    width: 350px;
     display: table;
     position: absolute;
     top: 50%;
     left: 50%;
+    z-index: 2;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);;
     transform: translate(-50%, -50%);
     h4{
-        border-right: solid 7px #0099ff;
-        border-bottom: solid 7px #ed008c;
-        border-left: solid 7px #fdd05d;
-        border-top: solid 7px #009052;
-        padding: 8px;
-        width: 25%;
-        margin:3px auto;
+        border-right: solid 10px #0099ff;
+        border-bottom: solid 10px #ed008c;
+        border-left: solid 10px #fdd05d;
+        border-top: solid 10px #009052;
+        padding: 10px 2px;
+        font-size: 40px;
+        font-weight: 100;
+        width: 80px;
+        height: 80px;
+        margin: 5px auto;
         border-radius: 8px;
     }
+    .gf{
+        margin: 30px 5px;
+        margin-bottom: 10px;
+        letter-spacing: 6px;
+        font-size: 20px;
+    }
 }
-
+.font{
+    font-family: "Roboto";
+    font-weight: 100;
+}
 .para{
     margin-top: 20px;
 }
 .colorful-border{
     text-align: center;
+    font-family: "Roboto";
     border: 0;
     border-right: solid 10px #0099ff;
     border-bottom: solid 10px #ed008c;
@@ -190,29 +221,33 @@ header {
 }
 .arrow{
     position: absolute;
+    z-index: 4;
     bottom: 0;
     color: white;
     font-size: 100px;
-    left: 50%;
+    left: 52%;
     transform: translate(-50%,0%);
     -webkit-transform: translate(-50%,0%);
     -moz-transform: translate(-50%,0%);
     -o-transform: translate(-50%,0%);
+    img{
+        width: 65%;
+    }
     a{
         text-decoration: none;
-        color: black;
+        color: white;
     }
 }
 .connect-text{
     position: absolute;
     font-size: 30px;
-    top: 15%;
-    left: 46%;
-    letter-spacing: 3px;
-    transform: translate(-17%,13%);
-    -webkit-transform: translate(-17%,13%);
-    -moz-transform: translate(-17%,13%);
-    -o-transform: translate(-17%,13%);
+    top: 10%;
+    left: 45%;
+    letter-spacing: 10px;
+    transform: translate(-17%, 13%);
+    -webkit-transform: translate(-15%, 10%);
+    -moz-transform: translate(-15%, 10%);
+    -o-transform: translate(-15%, 10%);
 }
 .gradient-style{
     height: 5px;
@@ -223,6 +258,29 @@ header {
     background: -o-linear-gradient(left, #7b4c8b , #fa4f81,#fd7aa8,#7b4c8b,#fa4f81,#fd7aa8,#7b4c8b);
 }
 .spacing{
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.image-style{
+    margin: 0 auto;
+    width: 150px;
+    text-align: left;
+}
+.horizontal{
+    width: 90px;
+    height: 3px;
+    background: black;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.spacing{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.flexslider:hover .flex-direction-nav .flex-next,.flexslider:hover .flex-direction-nav .flex-prev{display: none;}
+.flex-control-nav{
+    display: none;
+}
+.flexslider{
+    border: 0;
 }
