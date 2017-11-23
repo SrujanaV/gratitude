@@ -10001,13 +10001,28 @@ button.close {
 /* Bootstrap Variables Goes Here */
 @font-face {
   font-family: "Roboto";
-  font-weight: 100;
-  src: url("../fonts/roboto-regular_[allfont.net].ttf"); }
+  font-weight: 400;
+  src: url("../fonts/Roboto/roboto-regular_[allfont.net].ttf"); }
 
 @font-face {
   font-family: "Roboto";
   font-weight: 800;
-  src: url("../fonts/Roboto-Black.ttf"); }
+  src: url("../fonts/Roboto/Roboto-Black.ttf"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 100;
+  src: url("../fonts/Roboto/Roboto-Thin.ttf"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  src: url("../fonts/Roboto/Roboto-Light.ttf"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("../fonts/Roboto/Roboto-Bold.ttf"); }
 
 body {
   font-family: "Roboto"; }
@@ -10040,8 +10055,12 @@ a,
   transition: all ease 300ms; }
 
 footer {
+  font-family: "Roboto";
+  font-weight: 700;
   font-size: 12px;
-  letter-spacing: 2px; }
+  color: #333; }
+  footer .footer-spacing {
+    padding: 0 30px; }
   footer a {
     text-decoration: none;
     color: #ed008c;
@@ -10123,41 +10142,33 @@ header {
   overflow: hidden; }
 
 .shadow {
-  -webkit-box-shadow: 10px 10px 5px #888888;
-          box-shadow: 10px 10px 5px #888888; }
+  -webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4); }
 
 .grat-text1 {
+  color: black;
   font-family: "Roboto";
   font-weight: 300;
   background: white;
   text-align: justify;
-  padding: 30px 30px;
+  padding: 10px 20px 20px;
   border-radius: 5px;
   border: solid 10px black;
-  width: 350px;
+  width: 360px;
   display: table;
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 50%;
   z-index: 2;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
-  .grat-text1 h4 {
-    border-right: solid 10px #0099ff;
-    border-bottom: solid 10px #ed008c;
-    border-left: solid 10px #fdd05d;
-    border-top: solid 10px #009052;
-    padding: 10px 2px;
-    font-size: 40px;
-    font-weight: 100;
-    width: 80px;
-    height: 80px;
-    margin: 5px auto;
-    border-radius: 8px; }
+  .grat-text1 img {
+    width: 80px; }
   .grat-text1 .gf {
-    margin: 30px 5px;
+    font-weight: 300;
+    margin: 15px 5px;
     margin-bottom: 10px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-size: 20px; }
 
 .font {
@@ -10165,18 +10176,26 @@ header {
   font-weight: 100; }
 
 .para {
-  margin-top: 20px; }
+  letter-spacing: 1px;
+  margin-top: 20px;
+  font-weight: 600; }
 
 .colorful-border {
   text-align: center;
   font-family: "Roboto";
   border: 0;
+  top: 55%;
+  top: 55%;
   border: solid 10px black;
-  -webkit-box-shadow: 10px 10px 5px #888888;
-          box-shadow: 10px 10px 5px #888888; }
+  -webkit-box-shadow: 10px 10px 15px rgba(180, 180, 180, 0.7);
+          box-shadow: 10px 10px 15px rgba(180, 180, 180, 0.7);
+  padding: 25px 0; }
   .colorful-border a {
     text-decoration: none;
     color: black; }
+  .colorful-border img {
+    width: 50px;
+    margin-bottom: 5px; }
 
 .arrow {
   position: absolute;
@@ -10196,11 +10215,15 @@ header {
     text-decoration: none;
     color: white; }
 
+#connect {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
 .connect-text {
   position: absolute;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 30px;
-  top: 5%;
+  top: 80px;
   width: 100%;
   text-align: center;
   letter-spacing: 10px; }
@@ -10226,15 +10249,14 @@ header {
   width: 175px; }
 
 .horizontal {
-  width: 90px;
-  height: 3px;
+  width: 70px;
+  height: 4px;
   background: black;
-  margin: 0 auto;
+  margin: 15px auto;
   border-radius: 5px; }
 
 .spacing {
   display: inline-block;
-  letter-spacing: 3px;
   margin-top: 20px;
   margin-bottom: 20px; }
 
@@ -10248,7 +10270,11 @@ header {
   border: 0; }
 
 .spacing-bottom {
-  margin-bottom: 15px; }
+  margin-bottom: 20px; }
+
+.img-logo {
+  height: 14px;
+  margin-bottom: 4px; }
 
 #fancybox-loading,
 .fancybox-close,
