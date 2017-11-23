@@ -141,11 +141,11 @@ header {
     transform: translateY(-100%);
 }
 .background-image{
-    // background: url(../img/back1.jpg) no-repeat;
+    background: url(../img/back.jpg) no-repeat;
     height: 100vh;
     width: 100%;
-    // background-size: cover!important;
-    // background-position: center center!important;
+    background-size: cover!important;
+    background-position: center center!important;
     overflow: hidden;
 }
 .background-image1{
@@ -194,7 +194,7 @@ header {
     .gf{
         margin: 30px 5px;
         margin-bottom: 10px;
-        letter-spacing: 6px;
+        letter-spacing: 5px;
         font-size: 20px;
     }
 }
@@ -209,10 +209,11 @@ header {
     text-align: center;
     font-family: "Roboto";
     border: 0;
-    border-right: solid 10px #0099ff;
-    border-bottom: solid 10px #ed008c;
-    border-left: solid 10px #fdd05d;
-    border-top: solid 10px #009052;
+    border: solid 10px black;
+    // border-right: solid 10px #0099ff;
+    // border-bottom: solid 10px #ed008c;
+    // border-left: solid 10px #fdd05d;
+    // border-top: solid 10px #009052;
     box-shadow: 10px 10px 5px #888888;
     a{
         text-decoration: none;
@@ -222,16 +223,17 @@ header {
 .arrow{
     position: absolute;
     z-index: 4;
-    bottom: 0;
+    bottom: 30px;
     color: white;
-    font-size: 100px;
-    left: 52%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
     transform: translate(-50%,0%);
     -webkit-transform: translate(-50%,0%);
     -moz-transform: translate(-50%,0%);
     -o-transform: translate(-50%,0%);
     img{
-        width: 65%;
+        width: 80px;;
     }
     a{
         text-decoration: none;
@@ -240,14 +242,17 @@ header {
 }
 .connect-text{
     position: absolute;
+    font-weight: 100;
     font-size: 30px;
-    top: 10%;
-    left: 45%;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    // left: 46%;
     letter-spacing: 10px;
-    transform: translate(-17%, 13%);
-    -webkit-transform: translate(-15%, 10%);
-    -moz-transform: translate(-15%, 10%);
-    -o-transform: translate(-15%, 10%);
+    // transform: translate(-17%, 13%);
+    // -webkit-transform: translate(-15%, 8%);
+    // -moz-transform: translate(-15%, 8%);
+    // -o-transform: translate(-15%, 8%);
 }
 .gradient-style{
     height: 5px;
@@ -262,9 +267,13 @@ header {
     margin-bottom: 20px;
 }
 .image-style{
+    font-size: 18px;
     margin: 0 auto;
     width: 150px;
     text-align: left;
+}
+.leter{
+    width: 175px;
 }
 .horizontal{
     width: 90px;
@@ -274,6 +283,8 @@ header {
     border-radius: 5px;
 }
 .spacing{
+    display: inline-block;
+    letter-spacing: 3px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -283,4 +294,7 @@ header {
 }
 .flexslider{
     border: 0;
+}
+.spacing-bottom{
+    margin-bottom: 15px;
 }

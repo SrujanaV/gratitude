@@ -3,4 +3,23 @@
      .grat-text1{
          width: 85%;
      }
+     .connect-text{
+         top: 3%;
+     }
+     .flexslider:hover .flex-direction-nav .flex-next,.flexslider:hover .flex-direction-nav .flex-prev
+     {display: none;opacity: 0;}
+     .flex-control-nav{
+         display: none;
+     }
+
+     .flex-direction-nav a.flex-next:before,
+     .flex-direction-nav a:before {
+        display: none;
+    }
+    .arrow{
+        img{
+            display: none;}
+    }
+    
+     .flexslider .slides > li { float: none; }
  }

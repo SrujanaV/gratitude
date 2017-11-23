@@ -1,3 +1,7 @@
  @media (max-width: $screen-sm-max) {
      // Tablet
+     .flex-direction-nav a.flex-next:before,
+     .flex-direction-nav a:before {
+        display: none;
+    }
  }
