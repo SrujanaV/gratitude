@@ -88,6 +88,15 @@ footer {
     p {
         margin: 0;
     }
+    .spac1{
+        text-align: left;
+    }
+    .spac2{
+        text-align: center;
+    } 
+    .spac3{
+        text-align: right;
+        } 
 }
 
 //bootstrap forms
@@ -269,14 +278,15 @@ img{
     }
 }
 #connect{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    .pos{
+        position: relative;
+    }
 }
 .connect-text{
     position: absolute;
     font-weight: 300;
     font-size: 30px;
-    top: 80px;
+    top: 85px;
     width: 100%;
     text-align: center;
     // left: 46%;
@@ -315,7 +325,6 @@ img{
     border-radius: 5px;
 }
 .spacing{
-    display: inline-block;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -333,3 +342,4 @@ img{
     height: 14px;
     margin-bottom: 4px;
 }
+      
