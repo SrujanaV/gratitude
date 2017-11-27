@@ -10000,6 +10000,11 @@ button.close {
 
 /* Bootstrap Variables Goes Here */
 @font-face {
+  font-family: "Futura";
+  font-weight: 500;
+  src: url("../fonts/futura/futura medium bt.ttf"); }
+
+@font-face {
   font-family: "Roboto";
   font-weight: 400;
   src: url("../fonts/Roboto/roboto-regular_[allfont.net].ttf"); }
@@ -10055,10 +10060,10 @@ a,
   transition: all ease 300ms; }
 
 footer {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 12px;
-  color: #333; }
+  font-family: "Futura";
+  font-weight: 500;
+  font-size: 14px;
+  color: black; }
   footer .footer-spacing {
     padding: 0 30px; }
   footer a {
@@ -10067,6 +10072,12 @@ footer {
     font-size: 14px; }
   footer p {
     margin: 0; }
+  footer .spac1 {
+    text-align: left; }
+  footer .spac2 {
+    text-align: center; }
+  footer .spac3 {
+    text-align: right; }
 
 .input-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
@@ -10133,9 +10144,9 @@ header {
   overflow: hidden; }
 
 .background-image1 {
+  padding: 100px 0;
   position: relative;
   background: url(../img/back2.jpg) no-repeat;
-  height: 100vh;
   width: 100%;
   background-size: cover !important;
   background-position: center center !important;
@@ -10163,13 +10174,24 @@ header {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
   .grat-text1 img {
-    width: 80px; }
+    width: 180px; }
   .grat-text1 .gf {
     font-weight: 300;
     margin: 15px 5px;
     margin-bottom: 10px;
     letter-spacing: 3px;
     font-size: 20px; }
+
+.grat-text2 {
+  color: black;
+  font-family: "Roboto";
+  font-weight: 300;
+  background: white;
+  text-align: justify;
+  padding: 10px 20px 20px;
+  border: solid 10px black;
+  width: 400px;
+  margin: 0 auto; }
 
 .font {
   font-family: "Roboto";
@@ -10191,6 +10213,8 @@ header {
           box-shadow: 10px 10px 15px rgba(180, 180, 180, 0.7);
   padding: 25px 0; }
   .colorful-border a {
+    font-size: 20px;
+    font-weight: 800;
     text-decoration: none;
     color: black; }
   .colorful-border img {
@@ -10215,16 +10239,13 @@ header {
     text-decoration: none;
     color: white; }
 
-#connect {
-  padding-top: 100px;
-  padding-bottom: 100px; }
+#connect .pos {
+  position: relative; }
 
 .connect-text {
-  position: absolute;
+  padding-bottom: 20px;
   font-weight: 300;
-  font-size: 30px;
-  top: 80px;
-  width: 100%;
+  font-size: 40px;
   text-align: center;
   letter-spacing: 10px; }
 
@@ -10252,11 +10273,9 @@ header {
   width: 70px;
   height: 4px;
   background: black;
-  margin: 15px auto;
-  border-radius: 5px; }
+  margin: 15px auto; }
 
 .spacing {
-  display: inline-block;
   margin-top: 20px;
   margin-bottom: 20px; }
 
@@ -10270,7 +10289,7 @@ header {
   border: 0; }
 
 .spacing-bottom {
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
 
 .img-logo {
   height: 14px;
@@ -10325,16 +10344,15 @@ header {
   .grat-text1 {
     width: 85%; }
   .connect-text {
-    top: 3%; }
-  .flexslider:hover .flex-direction-nav .flex-next, .flexslider:hover .flex-direction-nav .flex-prev {
-    display: none;
-    opacity: 0; }
-  .flex-control-nav {
-    display: none; }
-  .flex-direction-nav a.flex-next:before,
-  .flex-direction-nav a:before {
-    display: none; }
+    top: 40px; }
   .arrow img {
     display: none; }
-  .flexslider .slides > li {
-    float: none; } }
+  .spac1 {
+    text-align: center !important; }
+  .spac2 {
+    text-align: center !important; }
+  .spac3 {
+    text-align: center !important; }
+  .spacing {
+    margin-top: 8px !important;
+    margin-bottom: 8px !important; } }
