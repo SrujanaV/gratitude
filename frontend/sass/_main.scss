@@ -17,11 +17,11 @@ $brand-info: #000072 !default;
 @font-face {
     font-family: "Roboto";
     font-weight: 400;
-    src: url("../fonts/Roboto/roboto-regular_[allfont.net].ttf");
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
 }
 @font-face {
     font-family: "Roboto";
-    font-weight: 800;
+    font-weight: 900;
     src: url("../fonts/Roboto/Roboto-Black.ttf");
 }
 @font-face {
@@ -178,7 +178,7 @@ header {
     overflow: hidden;
 }
 .background-image1{
-    padding: 100px 0;
+    padding: 90px 0;
     position: relative;
     background: url(../img/back2.jpg) no-repeat;
     width: 100%;
@@ -192,13 +192,14 @@ header {
 .grat-text1{
     color: black;
     font-family: "Roboto";
-    font-weight: 300;
+    font-weight: 400;
     background: white;
     text-align: justify;
-    padding: 10px 20px 20px;
+    padding: 30px;
+    padding-top: 20px;
     border-radius: 5px;
-    border: solid 10px black;
-    width: 360px;
+    border: solid 5px black;
+    width: 380px;
     display: table;
     position: absolute;
     top: 52%;
@@ -209,7 +210,7 @@ header {
     -o-transform: translate(-50%, -50%);;
     transform: translate(-50%, -50%);
     img{
-        width: 180px;
+        width: 80px;
     }
     // h4{
     //     border-right: solid 10px #0099ff;
@@ -226,10 +227,9 @@ header {
     // }
     .gf{
         font-weight: 300;
-        margin: 15px 5px;
         margin-bottom: 10px;
-        letter-spacing: 3px;
-        font-size: 20px;
+        letter-spacing: 5px;
+        font-size: 14px;
     }
 }
 .grat-text2{
@@ -239,25 +239,25 @@ header {
     background: white;
     text-align: justify;
     padding: 10px 20px 20px;
-    // border-radius: 5px;
-    border: solid 10px black;
-    width: 400px;
+    width: 380px;
 margin: 0 auto;}
 .font{
     font-family: "Roboto";
     font-weight: 100;
 }
 .para{
+    text-align-last: center;
     letter-spacing: 1px;
     margin-top: 20px;
-    font-weight: 600;
+    font-weight: 400px;
 }
 .colorful-border{
     text-align: center;
     font-family: "Roboto";
     border: 0;
-    top: 55%;top: 55%;
-    border: solid 10px black;
+    top: 55%;
+    border: solid 5px black;
+    border-radius: 5px;
     // border-right: solid 10px #0099ff;
     // border-bottom: solid 10px #ed008c;
     // border-left: solid 10px #fdd05d;
@@ -301,8 +301,9 @@ img{
     }
 }
 .connect-text{
-    padding-bottom: 20px;
-    font-weight: 300;
+    color: black;
+    padding-bottom: 25px;
+    font-weight: 700;
     font-size: 40px;
     text-align: center;
     // left: 46%;
@@ -323,6 +324,9 @@ img{
 .spacing{
     margin-top: 35px;
     margin-bottom: 20px;
+    .image-space{
+        margin-bottom: 5px;
+    }
 }
 .image-style{
     font-size: 18px;

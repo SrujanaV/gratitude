@@ -10007,11 +10007,11 @@ button.close {
 @font-face {
   font-family: "Roboto";
   font-weight: 400;
-  src: url("../fonts/Roboto/roboto-regular_[allfont.net].ttf"); }
+  src: url("../fonts/Roboto/Roboto-Regular.ttf"); }
 
 @font-face {
   font-family: "Roboto";
-  font-weight: 800;
+  font-weight: 900;
   src: url("../fonts/Roboto/Roboto-Black.ttf"); }
 
 @font-face {
@@ -10144,7 +10144,7 @@ header {
   overflow: hidden; }
 
 .background-image1 {
-  padding: 100px 0;
+  padding: 90px 0;
   position: relative;
   background: url(../img/back2.jpg) no-repeat;
   width: 100%;
@@ -10159,13 +10159,14 @@ header {
 .grat-text1 {
   color: black;
   font-family: "Roboto";
-  font-weight: 300;
+  font-weight: 400;
   background: white;
   text-align: justify;
-  padding: 10px 20px 20px;
+  padding: 30px;
+  padding-top: 20px;
   border-radius: 5px;
-  border: solid 10px black;
-  width: 360px;
+  border: solid 5px black;
+  width: 380px;
   display: table;
   position: absolute;
   top: 52%;
@@ -10174,13 +10175,12 @@ header {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
   .grat-text1 img {
-    width: 180px; }
+    width: 80px; }
   .grat-text1 .gf {
     font-weight: 300;
-    margin: 15px 5px;
     margin-bottom: 10px;
-    letter-spacing: 3px;
-    font-size: 20px; }
+    letter-spacing: 5px;
+    font-size: 14px; }
 
 .grat-text2 {
   color: black;
@@ -10189,8 +10189,7 @@ header {
   background: white;
   text-align: justify;
   padding: 10px 20px 20px;
-  border: solid 10px black;
-  width: 400px;
+  width: 380px;
   margin: 0 auto; }
 
 .font {
@@ -10198,17 +10197,18 @@ header {
   font-weight: 100; }
 
 .para {
+  text-align-last: center;
   letter-spacing: 1px;
   margin-top: 20px;
-  font-weight: 600; }
+  font-weight: 400px; }
 
 .colorful-border {
   text-align: center;
   font-family: "Roboto";
   border: 0;
   top: 55%;
-  top: 55%;
-  border: solid 10px black;
+  border: solid 5px black;
+  border-radius: 5px;
   -webkit-box-shadow: 10px 10px 15px rgba(180, 180, 180, 0.7);
           box-shadow: 10px 10px 15px rgba(180, 180, 180, 0.7);
   padding: 25px 0; }
@@ -10243,8 +10243,9 @@ header {
   position: relative; }
 
 .connect-text {
-  padding-bottom: 20px;
-  font-weight: 300;
+  color: black;
+  padding-bottom: 25px;
+  font-weight: 700;
   font-size: 40px;
   text-align: center;
   letter-spacing: 10px; }
@@ -10259,6 +10260,8 @@ header {
 .spacing {
   margin-top: 35px;
   margin-bottom: 20px; }
+  .spacing .image-space {
+    margin-bottom: 5px; }
 
 .image-style {
   font-size: 18px;
@@ -10341,7 +10344,7 @@ header {
     display: none; } }
 
 @media (max-width: 767px) {
-  .grat-text1 {
+  .grat-text1, .grat-text2 {
     width: 85%; }
   .connect-text {
     top: 40px; }
