@@ -18,7 +18,11 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             console.log("This is a button Click");
         };
 
-
+$scope.scrolldown=function(){
+    $('html, body').animate({
+        scrollTop: $('#connect').offset().top
+    }, 500);
+}
 
     })
 
