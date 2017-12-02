@@ -20,7 +20,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
 $scope.scrolldown=function(){
     $('html, body').animate({
-        scrollTop: $('#connect').offset().top
+        scrollTop: $('#connect').offset().top+70
     }, 500);
 }
 
