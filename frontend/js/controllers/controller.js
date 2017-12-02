@@ -4,8 +4,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         $scope.navigation = NavigationService.getNavigation();
 
         $scope.mySlides = [
-            '../img/back1.jpg',
-            '../img/back3.jpg'
+            '../img/b1.jpg',
+            '../img/b2.jpg',
+            '../img/b3.jpg'
         ];
         var abc = _.times(100, function (n) {
             return n;
