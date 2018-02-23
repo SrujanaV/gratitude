@@ -39,6 +39,11 @@ $brand-info: #000072 !default;
     font-weight: 700;
     src: url("../fonts/Roboto/Roboto-Bold.ttf");
 }
+@font-face {
+    font-family: "Roboto-Condensed";
+    font-weight: 400;
+    src: url("../fonts/Roboto/Roboto_Condensed/RobotoCondensed-Regular.ttf");
+}
 body {
     // padding-top: 70px;
     font-family: "Roboto";
@@ -252,21 +257,29 @@ margin: 0 auto;}
     font-weight: 400px;
 }
 .colorful-border{
-    text-align: center;
-    font-family: "Roboto";
+    font-family: "Roboto-Condensed";
     border: 0;
     top: 55%;
-    border: solid 5px black;
-    border-radius: 5px;
-    // border-right: solid 10px #0099ff;
-    // border-bottom: solid 10px #ed008c;
-    // border-left: solid 10px #fdd05d;
-    // border-top: solid 10px #009052;
+    // border: solid 5px black;
+    border-radius: 10px;
+    border-right: solid 15px #0099ff;
+    border-bottom: solid 15px #ed008c;
+    border-left: solid 15px #fdd05d;
+    border-top: solid 15px #009052;
+    border-collapse: collapse;
     box-shadow: 10px 10px 15px rgba(180,180,180,0.7);
     padding: 25px 0;
+    .horizontal_line{
+        border-top: solid 4px black;
+        width: 45%;
+        margin-top: 40px;
+    }
+    .desc-text{
+        padding: 0 90px;
+    }
     a{
         font-size: 20px;
-        font-weight:800;
+        // font-weight:800;
         text-decoration: none;
         color: black;
     }
